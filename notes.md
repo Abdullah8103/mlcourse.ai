@@ -13,3 +13,11 @@
 <p>describe the data ( and include specific data types )<br><strong>df.describe(include=["object", "bool"])</strong></p>
 <p>describe the the value counts of a specific series<br><strong>df[column name].value_counts(normalize = true))</strong></p>
 
+# sorting data frames
+<p>Sorting a dataframe<br><strong>df.sort_values(by=["Churn", "Total day charge"], ascending=False).head()</strong></p>
+
+# Indexing and retrieving data
+<p>You can index by doing the array thing<br><strong>df[column name]</strong></p>
+<p>You can index by using a condition<br><strong>df.select_dtypes(include=np.number)[df["Churn"] == 1].mean()</strong></p>
+
+
