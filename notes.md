@@ -7,3 +7,5 @@
 <p>Import csv into a panda dataframe<br><strong>df = pd.read_csv("../../data/telecom_churn.csv")</strong></p>
 <p>Show the top 5 entries in the dataframe<br><strong>df.head()</strong></p>
 <p>Show shape of the dataframe as<br><strong>df.shape()</strong></p>
+<p>Show names of the coloumns of the dataframe as<br><strong>df.columns()</strong></p>
+<p>Show information of the coloumns of the dataframe as<br><strong>df.info()</strong></p>
