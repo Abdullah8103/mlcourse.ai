@@ -19,5 +19,5 @@
 # Indexing and retrieving data
 <p>You can index by doing the array thing<br><strong>df[column name]</strong></p>
 <p>You can index by using a condition<br><strong>df.select_dtypes(include=np.number)[df["Churn"] == 1].mean()</strong></p>
-
-
+<p>You can index with loc<br><strong>df.loc[0:5, "State":"Area code"]</strong></p>
+<p>You can index with iloc<br><strong>df.iloc[0:5, 0:3]</strong></p>
